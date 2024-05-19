@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "January 1, 1970 (midnight UTC/GMT)"
+  - text: "January 1, 1970 (midnight UTC/GMT-12)"
+  - text: "January 1, 1970 (afternoon UTC/GMT)"
+  - text: "January 1, 1970 (midnight UTC/GMT+12)"
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21234#comment
+status: Solved
+record: -1
+local_check: false
